@@ -1,4 +1,4 @@
-export const FIREBASE_KEY= {
+export const FIREBASE_KEY = {
     apiKey: "AIzaSyA34wbeXsZ3RcvGgV8eVrYojIAh3bzh5Eg",
     authDomain: "first-app-bd942.firebaseapp.com",
     databaseURL: "https://first-app-bd942.firebaseio.com",

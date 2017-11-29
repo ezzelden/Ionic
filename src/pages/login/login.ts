@@ -31,7 +31,6 @@ export class LoginPage {
      
       this.navCtrl.push(FirstPage); 
     
-    console.log(`Username: ${this.user.value} and Password: ${this.pass.value}`);
    }
    showConfirm(message = "error") {
     let alert = this.alertCtrl.create({
@@ -41,6 +40,8 @@ export class LoginPage {
     });
     alert.present();
   }
+
+  
   ionViewDidLoad() {
     console.log('ionViewDidLoad LoginPage');
   }
